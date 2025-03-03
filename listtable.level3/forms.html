@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+</head>
+<body>
+    <center><big><b><h1><u>Registration Form</u> </h1></b></big></center>
+    <form action="/Applied.">
+        <!--Use Label for Initializing Data Elements Just as Input taggg-->
+         <label for="Roll No.">University Rollno.</label>
+         <input type="number" placeholder="Enter Number"><br>
+
+         <!-- DIRECT ACCES WITHOUT USING LABEL FOR TAG   -->
+
+            Name :- <input type="text" name="Enter Name" id="Name" placeholder="Enter Name"> <br>
+            Class :- <input type="text" name="Class" id="intiger" placeholder="Enter Number"> <br>
+            Email:- <input type="text" name="Email" placeholder="Email" required="True"><br>
+            TextHi:-   <input type="text" placeholder="Enter Text">  <br>
+            Password:- <input type="password" placeholder="Enter PAssword"  required="true"> <br>
+            Contact: - <input type="number" name="Mob.No" id="Integer" placeholder="Enter Number">
+            <br><br>
+
+            <!--Date TAg-->
+            <label for="Date">DAte</label>
+            <input type="date" id="DAte"> <br><br>
+
+            <!--Time Tag-->
+            Time:- <input type="time" name="Time" id="Time"> <br><br>
+
+            <!--File TAg-->
+            File:- <input type="file" name="File" id="file" required="true"><br><br>
+
+            <!-- ADDING CUSTOM RANGE-->
+             Cost:- <input type="range" name="range"><br><br>
+
+
+
+             <!--Use Radio Button for Single Choice Option Button-->
+             <big><b><u><i>Choose Gender :--:</i></u></b></big><br>
+             Male <input type="radio" name="gender" value="Male"><br>
+             Female <input type="radio" name="gender" value="Female"><br>
+             Others <input type="radio" name="gender" value="Others"><br><br>
+
+
+             <!--USE CHECKBOX BUTTONS FOR MULTIPLE SELECTION OF DATA-->
+             <label><b><i><u><big>Choose Fruits</big></u></i></b></label><br>
+
+             Apple <input type="checkbox" name="fruit" value="Apple"><br>
+             Mango <input type="checkbox" name="fruit" value="Mango"><br>
+             Pineapple <input type="checkbox" name="fruit" value="Pineapple"><br><br>
+
+
+             <!--If we want to choose it from different Criteria -->
+             <label for="State">State</label>
+             <select name="State" id="State" >
+             <option value="Asssam">Assam</option>
+             <option value="Bihar">Bihar</option>
+             <option value="Chhatisgarh">Chhatisgarh</option>
+             <option value="Dehradoon">Dehradoon</option>
+             <option value="utrakhand">utrakhand</option>
+             <option value="Uttar pradesh">Uttar Pradesh</option>
+            </select>
+            <br><br>
+             
+
+           <!--If we want to insert some extrea field in our row so we use text area tag-->
+            <textarea name="Text" id="Text" cols="50" rows="5">
+                Enter The Text Here....
+            </textarea>
+            <br>
+
+            <!--IFrame tag for website k andr website k liye show -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/YT8rY_o5VhY?si=t7kll7s3p6PbB7tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <br>
+              <br>
+            <!--This Button is for Input-->
+            Submit Me:- <input type="submit" name="Sumit" placeholder="Submit">
+            <br>
+            <br>
+            <!--This is for Button Tag-->
+            Apply Here :-<button><b><i>Apply</i></b></button>
+      
+
+
+
+
+    </form>
+</body>
+</html>
